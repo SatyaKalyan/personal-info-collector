@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import FormField from "./FormField";
 
-const PersonalInfoForm: React.FC = () => {  // ✅ No props needed
+const PersonalInfoForm: React.FC = () => {  // ✅ No props needed test the changes
   const [name, setName] = useState<string>("");
   const [email, setEmail] = useState<string>("");
   const [phone, setPhone] = useState<string>("");
